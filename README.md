@@ -28,6 +28,6 @@ The server listens on the local machine by default. For a LAN server set `HOST=0
 
 Hoshi reads [`latest.json`](latest.json) once per server about every minute, then shows a notice when its version is newer than the installed version. GitHub caching, outages and rate-limit backoff can delay visibility. Browsers read the server's cached result; they do not independently poll GitHub. Notifications link to the release and never install or execute downloaded files.
 
-Each public release is accompanied by downloadable platform archives and SHA-256 checksums. Maintainers publish the manifest after release assets are verified, so notifications do not point at unfinished downloads.
+Each public release is accompanied by downloadable platform archives and SHA-256 checksums. The public repository automatically refreshes the manifest when a release is published, after checking that all platform downloads and checksum files exist. This also works for releases published through GitHub's interface.
 
 This project is independent of and not affiliated with Jellyfin. Media files are provided by the person running the server.
