@@ -1,6 +1,6 @@
 {
-  "version": "0.1.0",
-  "releaseUrl": "https://github.com/YTStatikGaming/hoshi-updates/releases/tag/v0.1.0",
-  "notes": "Hoshi 0.1.0 is available. Hoshi 0.1.0: media library, browser playback, anime watchlist and update notifications. See the release documentation for supported features and installation.\n\nDownload the archive for your operating system and verify its SHA-256 checksum. Extract it and follow README.md. FFmpeg is optional and installed separately.",
-  "publishedAt": "2026-09-22T10:15:05Z"
+  "version": "0.2.0",
+  "releaseUrl": "https://github.com/YTStatikGaming/hoshi-updates/releases/tag/v0.2.0",
+  "notes": "Hoshi 0.2.0 is available. Hoshi 0.2.0: media library, browser playback, anime watchlist and update notifications. See the release documentation for supported features and installation.\n\nDownload the archive for your operating system and verify its SHA-256 checksum. Extract it and follow README.md. FFmpeg is optional and installed separately.",
+  "publishedAt": "2026-09-22T11:06:21Z"
 }
